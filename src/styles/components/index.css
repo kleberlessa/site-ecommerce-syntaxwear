@@ -1,1 +1,21 @@
 /* src/styles/components/index.css */
+
+.product-card {
+    background-color: var(--color-white);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-dark);
+}
+
+.product-card p {
+    font-size: var(--font-size-base);
+    color: var(--color-secondary);
+}

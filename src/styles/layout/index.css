@@ -55,3 +55,20 @@
     background-color: #ffda6a; /* Slightly darker yellow */
     text-decoration: none;
 }
+
+.product-grid-section {
+    padding: var(--spacing-xxl) var(--spacing-lg);
+    text-align: center;
+}
+
+.product-grid-section h2 {
+    margin-bottom: var(--spacing-xxl);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
