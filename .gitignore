@@ -39,3 +39,7 @@ Thumbs.db
 # editor/ide
 .vscode/
 .idea/
+
+# project local notes
+
+/docs/checklists/check-list-semanal.md
