@@ -1,0 +1,8 @@
+/* src/styles/main.css */
+
+/* Import order as defined in docs/architecture.md */
+@import "./tokens/index.css";
+@import "./base/index.css";
+@import "./layout/index.css";
+@import "./components/index.css";
+@import "./utilities/index.css";
